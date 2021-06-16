@@ -190,6 +190,62 @@
         
       </ul>
     </section>
+    <section id="contact" class="d-flex flex-row p-5 justify-content-center align-items-center">
+      <h3 class="w-50 fs-2 fw-bold darkBlue">
+        I'm always interested in hearing about new projects, 
+        so if you'd like to chat please get in touch.
+      </h3>
+      <form action="https://formspree.io/f/xknkbwva" method="POST">
+        <fieldset>
+          <div class="d-flex flex-wrap">
+            <div class="form-outline mb-4 me-3">
+              <input 
+              oninvalid="setCustomValidity('Please enter your First name')"
+              type="text" 
+              name="firstName" 
+              id="firstName" 
+              required
+              class="form-control"
+              maxlength="30" 
+              placeholder="First name"
+              >
+            </div>
+            <div class="form-outline mb-4">
+              <input 
+              oninvalid="setCustomValidity('Please enter your Last name')"
+              type="text" 
+              name="lastName"
+              class="form-control" 
+              id="lastName" 
+              required 
+              maxlength="30" 
+              placeholder="Last name"
+              >
+            </div>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input 
+            type="email" 
+            name="_replyto" 
+            id="form4Example2" 
+            oninvalid="setCustomValidity('Please enter a valid email')" 
+            class="form-control" 
+            placeholder="Email address" 
+            />
+          </div>
+        
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea placeholder="Enter text here" required maxlength="500" class="form-control" id="form4Example3" rows="4"></textarea>
+          </div>
+
+        </fieldset>
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-success btn-b p-3">Get in touch</button>
+      </form>
+    </section>
   </main>
 </body>
 </html>
