@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Portfolio With Bootstrap.
 
 ![screenshot](./app_screenshot.png)
 
@@ -28,6 +28,9 @@ Additional description about the project and its features.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+run this in the root:
+
+- npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ### Setup
 
@@ -36,6 +39,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 ### Run tests
+- npx stylelint "**/*.{css,scss}" 
 
 ### Deployment
 
