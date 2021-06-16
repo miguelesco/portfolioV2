@@ -5,7 +5,7 @@ main {
 }
 
 .darkBlue {
-  color: #172b4d;
+  color: #172b4d !important;
 }
 
 .softGreen {
