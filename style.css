@@ -1,0 +1,22 @@
+main {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  margin: auto;
+}
+
+.darkBlue {
+  color: #172b4d !important;
+}
+
+.softGreen {
+  color: #36b37e;
+}
+
+.bg-lightGray {
+  background-color: #ebf0ee !important;
+}
+
+.white-circle-size {
+  width: 80px;
+  height: 80px;
+}
