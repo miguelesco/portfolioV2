@@ -1,0 +1,13 @@
+main {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  margin: auto;
+}
+
+.darkBlue {
+  color: #172B4D;
+}
+
+.bg-lightGray {
+  background-color: #ebf0ee !important;
+}
